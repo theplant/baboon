@@ -65,7 +65,6 @@ go func() {
 	if err := MandrillClient.(*baboon.Client).WaitInitDone(); err != nil {
 		panic(err)
 	}
-	baboon.DsiableSending = !Cfg.EnableBaboon
 	log.Printf("[baboon] init done (took %s)\n", time.Now().Sub(start))
 }()
 
