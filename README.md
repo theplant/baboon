@@ -10,12 +10,14 @@ Requirements:
 2. Sync your production templates to demo mailchimp accounts;
 3. Replace your mailchimp client with an interface with methods;
 4. Package dependency:
+
 	```
-	github.com/mattbaird/gochimp
-	github.com/sendgrid/sendgrid-go
-	github.com/aymerick/raymond
-	github.com/keighl/mandrill
+		github.com/mattbaird/gochimp
+		github.com/sendgrid/sendgrid-go
+		github.com/aymerick/raymond
+		github.com/keighl/mandrill
 	```
+
 5. Use __Handlebar__ as your Mailchimp template language;
 6. For transactional emails (Mandrill);
 
