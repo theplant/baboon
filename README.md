@@ -2,7 +2,6 @@
 
 Send Mandrill Transaction Emails Over SendGrid. For development/demo.
 
-
 ## How baboon works
 
 Requirements:
@@ -20,7 +19,7 @@ Requirements:
 5. Use __Handlebar__ as your Mailchimp template language;
 6. For transactional emails (Mandrill);
 
-### Syncchimp Usage
+### Synchimp Usage
 
 create `synchimp.json`
 
